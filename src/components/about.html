@@ -1,27 +1,22 @@
-<div style="background-color: #6193e2">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-lg-12 col-md-12 align-items-center text-center">
-        <div class="title-heading mt-4 pb-60">
-          <img
-            src="../assets/lasse.png"
-            class="img-fluid rounded-circle"
-            width="15%"
-            style="border: 5px solid #eee"
-            alt="Lasse Image"
-          />
-          <h1 class="text-white mt-1">Lasse Vestergaard</h1>
-          <h6><em>Jeg er en frontend/backend web udvikler</em></h6>
-          <div class="hero-btn mt-2 pt-2 mb-2">
-            <a href="#projects" class="btn btn-outline-light rounded me-2 mb-2">
-              <i class="fa-solid fa-code"></i> Mine Projekter
-            </a>
-
-            <a href="#contact" class="btn btn-dark rounded text-white mb-2">
-              <i class="fa-solid fa-envelope"></i> Kontakt Mig</a
-            >
-          </div>
-        </div>
+<div class="card border-muted mb-3" style="max-width: 100rem">
+  <div class="card-header text-muted"><h3>Lasse Vestergaard</h3></div>
+  <div class="card-body">
+    <div class="row">
+      <div class="col-md-3">
+        <img class="img-thumbnail avatar" src="../assets/lasse.png" />
+      </div>
+      <div class="col-md-9">
+        <p class="text-muted">About me</p>
+        <br /><br />
+        <ul class="list-group">
+          <li class="list-group-item">Company: ${user.company}</li>
+          <li class="list-group-item">
+            Website/blog:
+            <a href="${user.blog}" target="_blank">${user.blog}</a>
+          </li>
+          <li class="list-group-item">Location: ${user.location}</li>
+          <li class="list-group-item">Member Since: ${user.created_at}</li>
+        </ul>
       </div>
     </div>
   </div>
