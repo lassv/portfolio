@@ -1,0 +1,15 @@
+{
+  "name": "website-starter-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "servemon.config.js",
+  "scripts": {
+    "dev": "servemon dev"
+  },
+  "keywords": [],
+  "author": "Lasse Vestergaard",
+  "license": "MIT",
+  "devDependencies": {
+    "servemon": "^2.1.9"
+  }
+}
