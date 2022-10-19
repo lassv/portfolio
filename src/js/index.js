@@ -2,15 +2,15 @@ fetch("/data.json")
   .then((res) => res.json())
   .then((data) => {
     //Company
-    document.getElementById("company").innerText = data.company;
+    document.getElementById("company").innerHTML = data.company;
     // Location
-    (document.getElementById("location").innerText = data.location),
+    (document.getElementById("location").innerHTML = data.location),
       // Age
-      (document.getElementById("age").innerText = data.age);
+      (document.getElementById("age").innerHTML = data.age);
     // About
     document.getElementById("aboutText").innerHTML = data.about;
     // Name
-    document.getElementById("name").innerText = data.name;
+    document.getElementById("name").innerHTML = data.name;
   })
   .catch((e) => {
     console.error(e.message);
