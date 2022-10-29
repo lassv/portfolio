@@ -10,9 +10,9 @@
   {
     "id": 2,
     "name": "Includer.js",
-    "description": "A Javascript library for including other HTML files into one single HTML file.",
+    "description": "A tiny JavaScript library that enables you to inject HTML content into the current page from external HTML files.",
     "image": "https://includerjs.netlify.app/img/logo.png",
-    "link": "https://includerjs.netlify.app"
+    "link": "https://github.com/lassv/includerjs"
   },
 
   {
